@@ -59,26 +59,33 @@ print(f"MMCV version: {mmcv.__version__}")
 print(f"MMDetection version: {mmdet.__version__}")
 print(f"MMYOLO version: {mmyolo.__version__}")
 ```
+# Estimating distance with OpenMMLab and MiDaS
 
-### 6. Download Checkpoints
+### 1. Clone the repository:
+
+```bash
+python demo_video.py
+```
+
+### 2. Download Checkpoints
 
 You need to download the checkpoints from the official MMYOLO repository. You can download the YOLOv8 checkpoint from the following link: https://github.com/open-mmlab/mmyolo/tree/main/configs/yolov8
 
 Additionally, you need to download the DPT checkpoint from the MiDaS repository:
 https://github.com/isl-org/MiDaS/releases/download/v3/dpt_hybrid_384.pt
 
-### 7. Download Demo Video
+### 3. Download Demo Video
 To test the installation, you can download the demo video from the following link:
 https://scontent.xx.fbcdn.net/m1/v/t6/An84biPUErSZePAyqjTvsNKRwvNAvU8aXaPJ9ag7S-wcgv1zrMrCQM0jpDRPQp3GwLgbc2Bkyh3TvvSmwYzSmtNratn9LW9JMLiJfFNJXi-id0ZqXlLBo3sHjlmFOE6jTbpY6RwVSiEYkl1RC0GJmMcF1fwAkTFydwk1Ts7MklSokQ.mp4/AriaEverydayActivities_1.0.0_loc3_script4_seq7_rec1_preview_rgb.mp4?ccb=10-5&oh=00_AYBi2SfLr6YFf_uN4_s6Kz4107uGrvgOrpTqmiM5sq9pvA&oe=67D66A75&_nc_sid=792287
 
-### 8. Run Demo
+### 4. Run Demo
 To test the installation, you can run a demo using a sample video:
 
 ```bash
 python demo_video.py
 ```
 
-### 9. Notes
+### 5. Notes
 
 - The versions specified are known to work together
 - If you need to use different versions, make sure to check the compatibility matrix in the OpenMMLab documentation
