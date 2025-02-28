@@ -64,7 +64,8 @@ print(f"MMYOLO version: {mmyolo.__version__}")
 ### 1. Clone the repository:
 
 ```bash
-python demo_video.py
+git clone [python demo_video.py](https://github.com/binhphan77373/Estimating_distance_with_OpenMMLab_and_MiDaS.git)
+cd Estimating_distance_with_OpenMMLab_and_MiDaS
 ```
 
 ### 2. Download Checkpoints
